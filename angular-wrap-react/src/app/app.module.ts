@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CozyButtonComponent } from './cozy-button/cozy-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CozyButtonComponent
   ],
   imports: [
     BrowserModule,

@@ -31,7 +31,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "node_modules/cozy-ui/dist/cozy-ui.utils.min.css",
+                "bundleName": "cozy-ui"
+              },
+              {
+                "input": "node_modules/cozy-ui/transpiled/react/stylesheet.css",
+                "bundleName": "cozy-ui"
+              }
             ],
             "scripts": []
           },
